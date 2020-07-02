@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4BFEB8B2-D87D-D4CE-5006-3B61B4FEDBB2}</ProjectGuid>
+    <ProjectGuid>{DFF119F2-E391-642D-EB0E-0A3B30FF4445}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>VRTK.Samples.Farm.Runtime</AssemblyName>
@@ -73,10 +73,10 @@
     <Compile Include="Assets\VRTK\Assets\Samples\Farm\Scripts\Runtime\Tags\InteractableSawTag.cs" />
     <Compile Include="Assets\VRTK\Assets\Samples\Farm\Scripts\Runtime\Tags\InvalidTeleportLocationTag.cs" />
     <Reference Include="Zinnia.Runtime">
-      <HintPath>C:/Users/hesam/BaseProject/Library/ScriptAssemblies/Zinnia.Runtime.dll</HintPath>
+      <HintPath>C:/Users/hesam/VRBaseModel/Library/ScriptAssemblies/Zinnia.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="VRTK.Prefabs.Runtime">
-      <HintPath>C:/Users/hesam/BaseProject/Library/ScriptAssemblies/VRTK.Prefabs.Runtime.dll</HintPath>
+      <HintPath>C:/Users/hesam/VRBaseModel/Library/ScriptAssemblies/VRTK.Prefabs.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -307,19 +307,19 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.22f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Malimbe.BehaviourStateRequirementMethod">
-      <HintPath>C:/Users/hesam/BaseProject/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.BehaviourStateRequirementMethod.dll</HintPath>
+      <HintPath>C:/Users/hesam/VRBaseModel/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.BehaviourStateRequirementMethod.dll</HintPath>
     </Reference>
     <Reference Include="Malimbe.MemberChangeMethod">
-      <HintPath>C:/Users/hesam/BaseProject/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.MemberChangeMethod.dll</HintPath>
+      <HintPath>C:/Users/hesam/VRBaseModel/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.MemberChangeMethod.dll</HintPath>
     </Reference>
     <Reference Include="Malimbe.MemberClearanceMethod">
-      <HintPath>C:/Users/hesam/BaseProject/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.MemberClearanceMethod.dll</HintPath>
+      <HintPath>C:/Users/hesam/VRBaseModel/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.MemberClearanceMethod.dll</HintPath>
     </Reference>
     <Reference Include="Malimbe.PropertySerializationAttribute">
-      <HintPath>C:/Users/hesam/BaseProject/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.PropertySerializationAttribute.dll</HintPath>
+      <HintPath>C:/Users/hesam/VRBaseModel/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.PropertySerializationAttribute.dll</HintPath>
     </Reference>
     <Reference Include="Malimbe.XmlDocumentationAttribute">
-      <HintPath>C:/Users/hesam/BaseProject/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.XmlDocumentationAttribute.dll</HintPath>
+      <HintPath>C:/Users/hesam/VRBaseModel/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.XmlDocumentationAttribute.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.22f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
