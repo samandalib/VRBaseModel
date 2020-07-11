@@ -37,7 +37,7 @@ public class Locomotion2DAxis : LocomotionProvider
     {
         //Get the head in local, playspace ground
         float headHeight = Mathf.Clamp(head.transform.localPosition.y, 1, 2);
-       // characterController.height = headHeight;
+        // characterController.height = headHeight;
 
         //cut in half, add skin
         Vector3 newCenter = Vector3.zero;
@@ -50,7 +50,7 @@ public class Locomotion2DAxis : LocomotionProvider
 
         //Apply
         characterController.center = newCenter;
-        
+
     }
 
     private void CheckForInput()
@@ -80,9 +80,9 @@ public class Locomotion2DAxis : LocomotionProvider
         //Apply speed and move
         Vector3 movement = direction * speed;
         characterController.Move(movement * Time.deltaTime);
-        
+
     }
-    
+
     private void ApplyGravity()
     {
         Vector3 gravity = new Vector3(0, Physics.gravity.y * gravityMultiplier, 0);
@@ -90,5 +90,5 @@ public class Locomotion2DAxis : LocomotionProvider
 
         characterController.Move(gravity * Time.deltaTime);
     }
-    
+
 }

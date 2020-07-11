@@ -31,12 +31,12 @@ public class SetYPositionFix : MonoBehaviour
         if (PlanePos.y > 0)//If the Plane is located on the top (positive Y) side of the environment
         {
             Target.transform.position = new Vector3(x, y-yAdj, z);
-            Target.transform.rotation = FirstRotation;
+            //Target.transform.rotation = FirstRotation;
         }
         else if (PlanePos.y <= 0)//If the Plane is located on the down (negative y) side of the environment
         {
             Target.transform.position = new Vector3(x, y+yAdj, z);
-            Target.transform.rotation = FirstRotation;
+            //Target.transform.rotation = FirstRotation;
         }
     }
 }

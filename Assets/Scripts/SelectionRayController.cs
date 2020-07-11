@@ -22,6 +22,6 @@ public class SelectionRayController : MonoBehaviour
     {
         InputHelpers.IsPressed(controller.inputDevice, selectionActivationButton, out bool isActivated, activationThreshold);
         return isActivated;
-        
+
     }
 }
