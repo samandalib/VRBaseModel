@@ -223,6 +223,7 @@
     <Compile Include="Assets\Scripts\Locomotion2DAxis.cs" />
     <Compile Include="Assets\Scripts\LocomotionRayController.cs" />
     <Compile Include="Assets\Scripts\SelectionRayController.cs" />
+    <Compile Include="Assets\Scripts\SetRotationFix.cs" />
     <Compile Include="Assets\Scripts\SetXPositionFix.cs" />
     <Compile Include="Assets\Scripts\SetYPositionFix.cs" />
     <Compile Include="Assets\Scripts\SetZPositionFix.cs" />

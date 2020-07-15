@@ -33,6 +33,11 @@ public class ActiveObjectManager : MonoBehaviour
     void Update()
     {
         FindActiveObject();
+
+        ////////////TO DO: if there is an active gameobject set the interaction layer
+        ///else, set the activeObjectManager layer to 0 and 
+        ///or find a way other than working with layers, like calling a function in this script when the button is pressed
+        
         SetInteractionLayer();
     }
 
@@ -55,7 +60,11 @@ public class ActiveObjectManager : MonoBehaviour
         if (activeObjectManager.layer == 0)
         {
             //The 2DAxis on the controller will work for locomotion
-            Rig.GetComponent<Locomotion2DAxis>().enabled = true;           
+            Rig.GetComponent<Locomotion2DAxis>().enabled = true;
+
+            //Enable the set rotation script to maintain the rotation of objects 
+            //This might be unnecessary in the future
+            _activeGameObject.GetComponent<SetRotationFix>().enabled = false;
         }
         else
         {
@@ -76,6 +85,7 @@ public class ActiveObjectManager : MonoBehaviour
                 break;
             case 11://rotate
                 Debug.Log("Rotation Is selected !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+                _activeGameObject.GetComponent<SetRotationFix>().enabled = false;
                 CheckForInput();
                 DoObjectRotate(_activeGameObject, newPosition);
                 break;
